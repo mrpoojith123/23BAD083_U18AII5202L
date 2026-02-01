@@ -14,6 +14,8 @@ This repository contains Exploratory Data Analysis experiments performed using R
 | [Experiment 2](Experiment2/) | E-Commerce Transaction Analysis | Online transaction data | Analyze transaction patterns, detect outliers, and visualize sales intensity |
 | [Experiment 3](Experiment3/) | Healthcare Data Analysis | Patient health records | Scatter plot matrix with color encoding, correlation analysis |
 | [Experiment 4](Experiment4/) | Traffic Accidents Analysis | Traffic accident data | Multi-dimensional encoding for severity, frequency, and accident types |
+| [Experiment 5](Experiment5/) | Student Performance Statistical Analysis | Student academic records | Statistical analysis and performance patterns across departments |
+| [Experiment 6](Experiment6/) | Retail Business Data Analysis | Retail transaction data | Parallel coordinates, bubble charts, and trellis displays |
 
 ---
 
@@ -77,6 +79,37 @@ This repository contains Exploratory Data Analysis experiments performed using R
 
 ---
 
+## Experiment 5: Student Performance Statistical Analysis
+
+**Objective:** Perform statistical analysis on student performance data to identify patterns and correlations.
+
+**Analysis Focus:**
+- Summary statistics and distributions
+- Department-wise performance comparison
+- Correlation analysis
+- Grade distribution analysis
+
+**Libraries:** Base R and statistical packages
+
+[View Experiment 5 →](Experiment5/)
+
+---
+
+## Experiment 6: Retail Business Data Analysis
+
+**Objective:** Analyze retail business data using advanced multi-dimensional visualization techniques.
+
+**Visualizations:**
+- 📊 Parallel Coordinates - Sales, Profit, Discount by segment
+- 🫧 Bubble Chart - Sales vs Profit with region encoding
+- 🗺️ Trellis Display - Performance trends by region
+
+**Libraries:** `ggplot2`, `GGally`, `dplyr`
+
+[View Experiment 6 →](Experiment6/)
+
+---
+
 ## Tools & Technologies
 - **Language:** R
 - **IDE:** RStudio
@@ -92,6 +125,18 @@ This repository contains Exploratory Data Analysis experiments performed using R
 4. Run the `.R` script in RStudio
 
 ## Repository Structure
+├── Experiment5/
+│   ├── README.md
+│   ├── 5.student_performance.csv
+│   └── Figures/
+└── Experiment6/
+    ├── README.md
+    ├── EDA_ass_6.R
+    ├── 6.retail_business.csv
+    └── Figures/
+        ├── parallel_coordinates.png
+        ├── bubble_chart.png
+        └── trellis_display.png
 ```
 ├── README.md
 ├── Experiment1/
